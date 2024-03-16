@@ -1,0 +1,21 @@
+.customShadow {
+  box-shadow: 1px 1px 6px rgba(108, 202, 226, 1);
+}
+
+@media (max-width: 991px) {
+  .navMenu {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    transform: translateX(1000px);
+    transition: 0.3s ease-in;
+  }
+
+  .open {
+    transform: translateX(0);
+  }
+}
