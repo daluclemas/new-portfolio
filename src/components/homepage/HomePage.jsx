@@ -13,7 +13,7 @@ const HomePage = () => {
   return (
     <Layout>
       <section
-        className={`w-full mt-[60px] lg:mt-[80px] text-white min-h-[calc(100vh-100px)] flex justify-center items-center ${kanit.className}`}
+        className={`w-full mt-[60px] lg:mt-[80px] text-white min-h-[calc(100vh-200px)] md:min-h-[calc(100vh-80px)] flex justify-center items-center ${kanit.className}`}
       >
         <div className="w-[90%] mx-auto xl:w-full xl:max-w-[1200px]">
           <div className=" py-5 mx-auto flex flex-col items-center">
