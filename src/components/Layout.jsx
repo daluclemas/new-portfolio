@@ -60,7 +60,11 @@ const Layout = ({ children }) => {
               } lg:hidden cursor-pointer`}
               onClick={() => setShowSocials(!showSocials)}
             >
-              <button className="w-full h-full bg-transparent text-lg flex justify-center items-center text-customBlack">
+              <button
+                className={`w-full h-full bg-transparent text-lg flex justify-center items-center text-customBlack ${
+                  !showSocials && "text-white"
+                }`}
+              >
                 {showSocials ? <FaAnglesLeft /> : <FaAnglesRight />}
               </button>
             </div>
