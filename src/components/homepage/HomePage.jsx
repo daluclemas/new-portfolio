@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "../Layout";
 import { Kanit } from "next/font/google";
+import Skills from "./Skills";
 
 const kanit = Kanit({
   subsets: ["latin"],
@@ -12,7 +13,7 @@ const HomePage = () => {
   return (
     <Layout>
       <section
-        className={`w-full mt-[60px] lg:mt-[80px] text-white min-h-[calc(100vh-80px)] flex justify-center items-center ${kanit.className}`}
+        className={`w-full mt-[60px] lg:mt-[80px] text-white min-h-[calc(100vh-150px)] flex justify-center items-center ${kanit.className}`}
       >
         <div className="w-[90%] mx-auto xl:w-full xl:max-w-[1200px]">
           <div className=" py-5 mx-auto flex flex-col items-center">
@@ -34,11 +35,7 @@ const HomePage = () => {
               on time
             </p>
 
-            <section className="mt-4">
-              <h3 className="text-malibu uppercase font-bold text-xl md:text-2xl">
-                skills
-              </h3>
-            </section>
+            <Skills />
           </div>
         </div>
       </section>
