@@ -2,7 +2,7 @@
   box-shadow: 1px 1px 6px rgba(108, 202, 226, 1);
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .navMenu {
     position: fixed;
     right: 0;

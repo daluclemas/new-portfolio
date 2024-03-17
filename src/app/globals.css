@@ -6,3 +6,7 @@ body {
   background-color: rgba(18, 18, 18, 1);
   color: white;
 }
+
+.leading-custom {
+  line-height: 1.5 !important;
+}

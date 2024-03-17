@@ -19,7 +19,9 @@ const kronaone = Krona_One({
 const NavigationBar = () => {
   const [open, setOpen] = useState(false);
   return (
-    <nav className={`w-full fixed top-0 right-0 left-0 ${styles.customShadow}`}>
+    <nav
+      className={`w-full fixed top-0 right-0 left-0 z-[2] ${styles.customShadow}`}
+    >
       <div className="w-[90%] mx-auto xl:w-full xl:max-w-[1200px] py-3 flex items-center lg:justify-between lg:gap-16">
         <section className="flex justify-between w-full items-center lg:w-fit">
           <h1 className={`text-xl md:text-2xl uppercase ${kronaone.className}`}>
