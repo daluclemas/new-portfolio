@@ -12,7 +12,6 @@ const Skills = () => {
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 4,
-    arrows: false,
     swipeToSlide: true,
     rows: 2,
     responsive: [
@@ -21,7 +20,7 @@ const Skills = () => {
         settings: {
           slidesToShow: 3,
           slidesToScroll: 3,
-          arrows: true,
+
           dots: false,
         },
       },
@@ -33,7 +32,7 @@ const Skills = () => {
         skills
       </h3>
 
-      <div className=" py-4 mt-3 max-w-[250px] sm:max-w-[350px] mx-auto">
+      <div className=" py-4 mt-3 max-w-[250px] sm:max-w-[350px] mx-auto cursor-grab">
         <Slider {...settings}>
           {skillsdata.map((png, id) => {
             return (
