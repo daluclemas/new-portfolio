@@ -13,7 +13,7 @@ const HomePage = () => {
   return (
     <Layout>
       <section
-        className={`w-full mt-[60px] lg:mt-[80px] text-white min-h-[calc(100vh-200px)] md:min-h-[calc(100vh-80px)] flex justify-center items-center ${kanit.className}`}
+        className={`w-full mt-[60px] lg:mt-[80px] text-white min-h-[calc(100vh-95px)] md:min-h-[calc(100vh-80px)] flex justify-center items-center ${kanit.className}`}
       >
         <div className="w-[90%] mx-auto xl:w-full xl:max-w-[1200px]">
           <div className=" py-5 mx-auto flex flex-col items-center">
@@ -29,10 +29,10 @@ const HomePage = () => {
               </span>
             </h2>
 
-            <p className="w-[90%] mx-auto md:w-full text-center max-w-[800px] mt-4 text-base uppercase font-normal">
+            <p className="w-[90%] max-w-[550px] mx-auto md:w-full text-center lg:max-w-[800px] mt-4 text-base uppercase font-normal">
               Self-taught Frontend Developer passionate about programming with
               comprehensive experience in working on projects and delivers tasks
-              on time
+              on time.
             </p>
 
             <Skills />

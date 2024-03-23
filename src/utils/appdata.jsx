@@ -1,3 +1,5 @@
+import { skills } from "@/assets/images";
+
 export const navData = [
   {
     pathname: "home",
@@ -15,4 +17,15 @@ export const navData = [
     pathname: "contact me",
     url: "/contact-me",
   },
+];
+
+export const skillsdata = [
+  skills.htmlImage,
+  skills.cssImage,
+  skills.jsimage,
+  skills.reactimage,
+  skills.nextImage,
+  skills.scssImage,
+  skills.tsimage,
+  skills.tailwind,
 ];

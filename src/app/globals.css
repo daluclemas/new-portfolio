@@ -1,6 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+/* @import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css"; */
 
 body {
   background-color: rgba(18, 18, 18, 1);
@@ -9,4 +14,12 @@ body {
 
 .leading-custom {
   line-height: 1.5 !important;
+}
+
+.slick-dots li button:before {
+  color: white;
+}
+
+.slick-dots li.slick-active button:before {
+  color: rgba(108, 202, 226, 1);
 }
