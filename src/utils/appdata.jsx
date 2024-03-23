@@ -20,12 +20,19 @@ export const navData = [
 ];
 
 export const skillsdata = [
-  skills.htmlImage,
-  skills.cssImage,
   skills.jsimage,
   skills.reactimage,
   skills.nextImage,
-  skills.scssImage,
+  skills.nodeImg,
+  skills.express,
+  skills.gQl,
+  skills.mongo,
   skills.tsimage,
+  skills.htmlImage,
+  skills.cssImage,
+  skills.scssImage,
   skills.tailwind,
+  skills.mui,
+  skills.chakra,
+  skills.bstrap,
 ];

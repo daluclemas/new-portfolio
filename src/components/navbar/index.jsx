@@ -20,7 +20,7 @@ const NavigationBar = () => {
   const [open, setOpen] = useState(false);
   return (
     <nav
-      className={`w-full fixed top-0 right-0 left-0 z-[2] backdrop-blur-xl ${styles.customShadow}`}
+      className={`w-full fixed top-0 right-0 left-0 z-[2] bg-customBlack lg:bg-[unset] lg:backdrop-blur-xl ${styles.customShadow}`}
     >
       <div className="w-[90%] mx-auto xl:w-full xl:max-w-[1200px] py-3 flex items-center lg:justify-between lg:gap-16">
         <section className="flex justify-between w-full items-center lg:w-fit">
