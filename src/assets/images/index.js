@@ -13,6 +13,8 @@ import gQl from "./skills/gQl.png";
 import mongo from "./skills/mongo.png";
 import nodeImg from "./skills/nodejs.png";
 import bstrap from "./skills/bstrap.jpeg";
+// avatar
+import avatar from "./my-avatar.png";
 
 export const skills = {
   htmlImage,
@@ -31,3 +33,5 @@ export const skills = {
   mongo,
   gQl,
 };
+
+export { avatar };

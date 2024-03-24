@@ -7,8 +7,8 @@ const MenuLink = ({ link }) => {
   return (
     <li
       className={`lg:hover:text-malibu text-base uppercase mb-5 lg:mb-0 ${
-        pathname.includes(link.url)
-          ? "text-white lg:text-malibu"
+        pathname === link.url
+          ? "text-white lg:text-malibu pb-1 border-b-2 border-b-white lg:border-b-2 lg:border-b-malibu"
           : "text-customBlack lg:text-white"
       } `}
     >
