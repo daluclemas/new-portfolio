@@ -1,7 +1,10 @@
-import React from "react";
+"use client";
+
+import Typewriter from "typewriter-effect";
 import Layout from "../Layout";
 import { Kanit } from "next/font/google";
 import Skills from "./Skills";
+import { useTypeWriterEffect } from "@/utils/hooks/typewriterEffect";
 
 const kanit = Kanit({
   subsets: ["latin"],
@@ -18,21 +21,28 @@ const HomePage = () => {
         <div className="w-[90%] mx-auto xl:w-full xl:max-w-[1200px]">
           <div className=" py-5 mx-auto flex flex-col items-center">
             <h2
-              className={`text-3xl md:text-4xl lg:text-5xl text-center uppercase font-bold leading-custom w-full max-w-[294px] md:max-w-[350px] lg:max-w-[480px] `}
+              className={`text-2xl md:text-3xl lg:text-4xl text-center uppercase font-bold leading-custom w-full max-w-[294px] md:max-w-[350px] lg:max-w-[550px] `}
             >
-              hi there, I&apos;m{" "}
+              hi there, I&apos;m <br />
               <span className="text-malibu">chidalu anukam </span>
-              <span className="">
-                {/* community manager */}
-                {/* technical writer */}
-                {`<web developer />`}
-              </span>
+              <Typewriter
+                options={{
+                  strings: [
+                    "software engineer",
+                    "community manager",
+                    "technical writer",
+                    "security engineer",
+                  ],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
+              {/* </span> */}
             </h2>
 
             <p className="w-[90%] max-w-[550px] mx-auto md:w-full text-center lg:max-w-[800px] mt-4 text-base uppercase font-normal">
-              Self-taught Frontend Developer passionate about programming with
-              comprehensive experience in working on projects and delivers tasks
-              on time.
+              Software Engineer passionate about programming with comprehensive
+              experience in working on projects and delivers tasks on time.
             </p>
 
             <Skills />
